@@ -1,23 +1,20 @@
 {
-  "name": "d3-transition",
+  "name": "d3-jetpack",
   "version": "3.0.0",
-  "description": "Animated transitions for D3 selections.",
-  "homepage": "https://d3js.org/d3-transition/",
+  "description": "d3-jetpack is a set of nifty convenience wrappers that speed up your daily work with d3.js.",
+  "homepage": "https://github.com/gka/d3-jetpack#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/d3/d3-transition.git"
+    "url": "git+https://github.com/gka/d3-jetpack.git"
   },
   "keywords": [
     "d3",
     "d3-module",
-    "dom",
-    "transition",
-    "animation"
   ],
   "license": "ISC",
   "author": {
-    "name": "Mike Bostock",
-    "url": "https://bost.ocks.org/mike"
+    "name": "Gregor Aisch",
+    "url": "https://driven-by-data.net/"
   },
   "type": "module",
   "files": [
@@ -26,10 +23,10 @@
   ],
   "module": "src/index.js",
   "main": "src/index.js",
-  "jsdelivr": "dist/d3-transition.min.js",
-  "unpkg": "dist/d3-transition.min.js",
+  "jsdelivr": "dist/d3-jetpack.min.js",
+  "unpkg": "dist/d3-jetpack.min.js",
   "exports": {
-    "umd": "./dist/d3-transition.min.js",
+    "umd": "./dist/d3-jetpack.min.js",
     "default": "./src/index.js"
   },
   "sideEffects": [
